@@ -1,14 +1,8 @@
 export default function Footer() {
   return (
-    <>
-      <div>
-        <h1>
-            Created by Werayutt
-        </h1>
-        <h1>
-            Copy Right @ 2025
-        </h1>
-      </div>
-    </>
+    <div className="mt-10">
+      <h3 className="text-center text-gray-400">Created by S6752D10010</h3>
+      <h3 className="text-center text-gray-400">WERAYUTT MALA</h3>
+    </div>
   );
 }
