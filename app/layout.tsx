@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${kanit.className} ${geistMono.variable} antialiased`}
+        className={`${kanit.className} ${kanit} antialiased`}
       >
         {children}
       </body>
